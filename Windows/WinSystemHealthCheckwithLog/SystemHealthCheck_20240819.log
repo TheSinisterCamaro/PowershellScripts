@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240819105946
+Username: DESKTOP-QQLND09\jdick
+RunAs User: DESKTOP-QQLND09\jdick
+Configuration Name: 
+Machine: DESKTOP-QQLND09 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 31292
+PSVersion: 5.1.22621.3958
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3958
+BuildVersion: 10.0.22621.3958
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jdick\source\repos\PowershellScripts\Windows\SystemHealthCheck_20240819.log
+Disk Usage:
+
+Name FreeSpace(GB) UsedSpace(GB) TotalSpace(GB)
+---- ------------- ------------- --------------
+C            48.51        188.73         237.24
+D            437.5       1425.51        1863.02
+
+
+
+CPU Load:
+
+Name                                    LoadPercentage
+----                                    --------------
+Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz              2
+
+
+
+Memory Usage:
+
+TotalMemory(GB) FreeMemory(GB)
+--------------- --------------
+          31.88          20.55
+
+
+
+Network Connectivity Test:
+
+Source          Destination IPV4Address   IPV6Address Bytes Time(ms)
+------          ----------- -----------   ----------- ----- --------
+DESKTOP-QQLND09 google.com  74.125.21.113             32    25
+DESKTOP-QQLND09 google.com  74.125.21.113             32    25
+DESKTOP-QQLND09 google.com  74.125.21.113             32    21
+DESKTOP-QQLND09 google.com  74.125.21.113             32    21
+
+
+
+System Health Check completed at 08/19/2024 10:59:50
+**********************
+Windows PowerShell transcript end
+End time: 20240819105950
+**********************
